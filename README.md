@@ -13,9 +13,7 @@ i przedstawia wyniki na wykresach. Powstał jako zadanie rekrutacyjne.
 
 ## Dane
 
-Wykorzystałem cztery endpointy: `/users`, `/posts`, `/comments` i `/todos`.
-[Tu 1-2 zdania, dlaczego akurat te: powiązania przez userId i postId, różne rodzaje analiz.]
-Teksty postów i komentarzy to Lorem ipsum, więc analizuję strukturę i liczby, a nie treść.
+Wykorzystałem cztery endpointy: /users, /posts, /comments i /todos. Ich wybór pozwala połączyć dane o użytkownikach z ich postami, komentarzami i zadaniami, wykorzystując identyfikatory userId oraz postId. Dzięki temu mogłem przeanalizować aktywność użytkowników, liczbę komentarzy oraz stopień realizacji zadań. Teksty postów i komentarzy mają charakter demonstracyjny, dlatego analiza koncentruje się na strukturze danych i wartościach liczbowych, a nie na treści tekstowej.
 
 ## Metryki i wykresy
 
@@ -37,9 +35,27 @@ Python, pandas, requests, Plotly, Google Colab (Jupyter Notebook).
 
 ## Jak uruchomić
 
-Otwórz notebook przez link „Demo" powyżej i wybierz *Środowisko wykonawcze → Uruchom wszystko*.
-Notebook nie wymaga dodatkowej konfiguracji ani kluczy API.
+Otwórz notebook przez link „Demo” powyżej. Bez logowania do Google możesz przeglądać kod, opisy i zapisane wyniki. Aby uruchomić komórki i ponownie wykonać analizę, musisz zalogować się na konto Google.
+Po zalogowaniu wybierz Środowisko wykonawcze → Uruchom wszystko. Notebook nie wymaga dodatkowej konfiguracji ani kluczy API.
 
-## Jak użyłem AI
+## Proces pracy i użycie AI
 
-[Uzupełnij prawdziwie i konkretnie, patrz uwagi poniżej.]
+To mój pierwszy projekt, w którym samodzielnie pobieram i analizuję dane z zewnętrznego API.
+Pythona poznałem wcześniej na uczelni przy uczeniu maszynowym, a Google Colab poznałem na
+kolejnym przedmiocie, na którym też będę używał Pythona. Dlatego wybrałem właśnie to środowisko.
+Rozważałem też prezentację wyników w Streamlit, ale nie da się go uruchomić bezpośrednio w Colabie,
+więc zostałem przy notebooku.
+
+**Jak korzystałem z AI:**
+
+- **Plan projektu:** z pomocą AI (Claude) ustaliłem kolejne etapy pracy. Po przeanalizowaniu
+  planu wprowadziłem własne korekty, zostawiając to, co uznałem za wartościowe, i odrzucając elementy zbędne.
+- **Wybór danych:** strukturę danych sprawdziłem na stronie JSONPlaceholder i na jej podstawie
+  wybrałem endpointy do analizy.
+- **Kod:** generowałem go z pomocą AI (ChatGPT) fragmentami, krok po kroku. Każdy fragment
+  analizowałem, wprowadzałem poprawki i starałem się zrozumieć, co robi. Część linii pisałem
+  samodzielnie, żeby lepiej nauczyć się biblioteki np. pobranie kolejnych endpointów.
+- **Metryki:** w kolejnych etapach sam decydowałem, jakie metryki policzyć (wybrałem te, które
+  wydały mi się najciekawsze), i formułowałem odpowiednie prompty.
+- **Opisy w notebooku i wnioski:** powstały z pomocą AI (ChatGPT), a następnie je
+  sprawdziłem i dostosowałem.
