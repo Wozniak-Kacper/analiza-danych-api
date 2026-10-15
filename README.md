@@ -43,6 +43,7 @@ Po zalogowaniu wybierz Środowisko wykonawcze → Uruchom wszystko. Notebook nie
 To mój pierwszy projekt, w którym samodzielnie pobieram i analizuję dane z zewnętrznego API. Pythona poznałem wcześniej na uczelni podczas zajęć z uczenia maszynowego, a Google Colab poznałem na kolejnym przedmiocie, w ramach którego również będę pracował z Pythonem. Dlatego zdecydowałem się wykorzystać to środowisko w projekcie.
 
 Rozważałem również użycie Streamlit, ale ostatecznie wybrałem notebook, ponieważ pozwala przedstawić cały proces — od pobierania danych, przez ich analizę, aż po wizualizację wyników — w jednym miejscu.
+
 **Jak korzystałem z AI:**
 
 - **Plan projektu:** z pomocą AI (Claude) ustaliłem kolejne etapy pracy. Po przeanalizowaniu
